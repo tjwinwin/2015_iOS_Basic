@@ -12,7 +12,6 @@
 @property (nonatomic, retain) NSArray *personData;
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
-
 @end
 
 @implementation SecondViewController
@@ -43,19 +42,6 @@
 
 - (IBAction)showAllNames:(id)sender {
     //여기를 완성하세요
-    NSDictionary *allName = [[NSDictionary alloc]init];
-    [allName objectForKey:@"name"];
-    
-    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"전체이름"
-                                                                   message:[NSString stringWithFormat:@"%@", allName]
-                                                            preferredStyle:UIAlertControllerStyleAlert];
-    
-    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                          handler:^(UIAlertAction * action) {}];
-    
-    [alert addAction:defaultAction];
-    [self presentViewController:alert animated:YES completion:nil];
-    return;
 }
 
 - (void)didReceiveMemoryWarning {

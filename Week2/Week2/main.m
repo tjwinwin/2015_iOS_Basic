@@ -2,8 +2,8 @@
 //  main.m
 //  Week2
 //
-//  Created by 박태준 on 2015. 3. 11..
-//  Copyright (c) 2015년 박태준. All rights reserved.
+//  Created by Jung Kim on 3/11/15.
+//  Copyright (c) 2015 NHN NEXT. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

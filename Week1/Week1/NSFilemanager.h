@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  NSFilemanager.h
 //  Week1
 //
 //  Created by 박태준 on 2015. 3. 18..
 //  Copyright (c) 2015년 박태준. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface NSFilemanager : NSObject
 
 @end
-

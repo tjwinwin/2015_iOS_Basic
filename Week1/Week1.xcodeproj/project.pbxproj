@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC95F7981AB8C191001C205C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC95F7971AB8C191001C205C /* main.m */; };
+		DCAEFEBC1AB8F00F00D4CD39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEFEBB1AB8F00F00D4CD39 /* main.m */; };
+		DCAEFEC41AB8F03E00D4CD39 /* NSFilemanager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEFEC31AB8F03E00D4CD39 /* NSFilemanager.m */; };
+		DCAEFEC71AB8F05000D4CD39 /* NXPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEFEC61AB8F05000D4CD39 /* NXPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DC95F7921AB8C191001C205C /* CopyFiles */ = {
+		DCAEFEB61AB8F00F00D4CD39 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DC95F7941AB8C191001C205C /* Week1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week1; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC95F7971AB8C191001C205C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCAEFEB81AB8F00F00D4CD39 /* Week1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week1; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAEFEBB1AB8F00F00D4CD39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCAEFEC21AB8F03E00D4CD39 /* NSFilemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFilemanager.h; sourceTree = "<group>"; };
+		DCAEFEC31AB8F03E00D4CD39 /* NSFilemanager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFilemanager.m; sourceTree = "<group>"; };
+		DCAEFEC51AB8F05000D4CD39 /* NXPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPerson.h; sourceTree = "<group>"; };
+		DCAEFEC61AB8F05000D4CD39 /* NXPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC95F7911AB8C191001C205C /* Frameworks */ = {
+		DCAEFEB51AB8F00F00D4CD39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +44,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC95F78B1AB8C191001C205C = {
+		DCAEFEAF1AB8F00F00D4CD39 = {
 			isa = PBXGroup;
 			children = (
-				DC95F7961AB8C191001C205C /* Week1 */,
-				DC95F7951AB8C191001C205C /* Products */,
+				DCAEFEBA1AB8F00F00D4CD39 /* Week1 */,
+				DCAEFEB91AB8F00F00D4CD39 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DC95F7951AB8C191001C205C /* Products */ = {
+		DCAEFEB91AB8F00F00D4CD39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC95F7941AB8C191001C205C /* Week1 */,
+				DCAEFEB81AB8F00F00D4CD39 /* Week1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC95F7961AB8C191001C205C /* Week1 */ = {
+		DCAEFEBA1AB8F00F00D4CD39 /* Week1 */ = {
 			isa = PBXGroup;
 			children = (
-				DC95F7971AB8C191001C205C /* main.m */,
+				DCAEFEBB1AB8F00F00D4CD39 /* main.m */,
+				DCAEFEC21AB8F03E00D4CD39 /* NSFilemanager.h */,
+				DCAEFEC31AB8F03E00D4CD39 /* NSFilemanager.m */,
+				DCAEFEC51AB8F05000D4CD39 /* NXPerson.h */,
+				DCAEFEC61AB8F05000D4CD39 /* NXPerson.m */,
 			);
 			path = Week1;
 			sourceTree = "<group>";
@@ -65,13 +75,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC95F7931AB8C191001C205C /* Week1 */ = {
+		DCAEFEB71AB8F00F00D4CD39 /* Week1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC95F79B1AB8C191001C205C /* Build configuration list for PBXNativeTarget "Week1" */;
+			buildConfigurationList = DCAEFEBF1AB8F00F00D4CD39 /* Build configuration list for PBXNativeTarget "Week1" */;
 			buildPhases = (
-				DC95F7901AB8C191001C205C /* Sources */,
-				DC95F7911AB8C191001C205C /* Frameworks */,
-				DC95F7921AB8C191001C205C /* CopyFiles */,
+				DCAEFEB41AB8F00F00D4CD39 /* Sources */,
+				DCAEFEB51AB8F00F00D4CD39 /* Frameworks */,
+				DCAEFEB61AB8F00F00D4CD39 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,53 +89,55 @@
 			);
 			name = Week1;
 			productName = Week1;
-			productReference = DC95F7941AB8C191001C205C /* Week1 */;
+			productReference = DCAEFEB81AB8F00F00D4CD39 /* Week1 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DC95F78C1AB8C191001C205C /* Project object */ = {
+		DCAEFEB01AB8F00F00D4CD39 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "박태준";
 				TargetAttributes = {
-					DC95F7931AB8C191001C205C = {
+					DCAEFEB71AB8F00F00D4CD39 = {
 						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
-			buildConfigurationList = DC95F78F1AB8C191001C205C /* Build configuration list for PBXProject "Week1" */;
+			buildConfigurationList = DCAEFEB31AB8F00F00D4CD39 /* Build configuration list for PBXProject "Week1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DC95F78B1AB8C191001C205C;
-			productRefGroup = DC95F7951AB8C191001C205C /* Products */;
+			mainGroup = DCAEFEAF1AB8F00F00D4CD39;
+			productRefGroup = DCAEFEB91AB8F00F00D4CD39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC95F7931AB8C191001C205C /* Week1 */,
+				DCAEFEB71AB8F00F00D4CD39 /* Week1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DC95F7901AB8C191001C205C /* Sources */ = {
+		DCAEFEB41AB8F00F00D4CD39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC95F7981AB8C191001C205C /* main.m in Sources */,
+				DCAEFEC41AB8F03E00D4CD39 /* NSFilemanager.m in Sources */,
+				DCAEFEBC1AB8F00F00D4CD39 /* main.m in Sources */,
+				DCAEFEC71AB8F05000D4CD39 /* NXPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DC95F7991AB8C191001C205C /* Debug */ = {
+		DCAEFEBD1AB8F00F00D4CD39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -165,7 +177,7 @@
 			};
 			name = Debug;
 		};
-		DC95F79A1AB8C191001C205C /* Release */ = {
+		DCAEFEBE1AB8F00F00D4CD39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,14 +211,14 @@
 			};
 			name = Release;
 		};
-		DC95F79C1AB8C191001C205C /* Debug */ = {
+		DCAEFEC01AB8F00F00D4CD39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		DC95F79D1AB8C191001C205C /* Release */ = {
+		DCAEFEC11AB8F00F00D4CD39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -216,24 +228,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC95F78F1AB8C191001C205C /* Build configuration list for PBXProject "Week1" */ = {
+		DCAEFEB31AB8F00F00D4CD39 /* Build configuration list for PBXProject "Week1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC95F7991AB8C191001C205C /* Debug */,
-				DC95F79A1AB8C191001C205C /* Release */,
+				DCAEFEBD1AB8F00F00D4CD39 /* Debug */,
+				DCAEFEBE1AB8F00F00D4CD39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC95F79B1AB8C191001C205C /* Build configuration list for PBXNativeTarget "Week1" */ = {
+		DCAEFEBF1AB8F00F00D4CD39 /* Build configuration list for PBXNativeTarget "Week1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC95F79C1AB8C191001C205C /* Debug */,
-				DC95F79D1AB8C191001C205C /* Release */,
+				DCAEFEC01AB8F00F00D4CD39 /* Debug */,
+				DCAEFEC11AB8F00F00D4CD39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DC95F78C1AB8C191001C205C /* Project object */;
+	rootObject = DCAEFEB01AB8F00F00D4CD39 /* Project object */;
 }
