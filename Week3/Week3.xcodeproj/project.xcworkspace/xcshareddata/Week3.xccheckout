@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>65F309DE-13BE-4C40-87FA-2ED556CAF5C3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Week3</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5F52D9E221D9CEC49DFC2E540D9ABAAC05444AD9</key>
+		<string>https://github.com/tjwinwin/2015_iOS_Basic.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Week3/Week3.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5F52D9E221D9CEC49DFC2E540D9ABAAC05444AD9</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tjwinwin/2015_iOS_Basic.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5F52D9E221D9CEC49DFC2E540D9ABAAC05444AD9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5F52D9E221D9CEC49DFC2E540D9ABAAC05444AD9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Homework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
